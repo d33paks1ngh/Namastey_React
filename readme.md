@@ -46,3 +46,4 @@
 - Config driven UI
 - Working On real swiggy API
 - UI is powered by Data
+- Always pass unique key with the map 
