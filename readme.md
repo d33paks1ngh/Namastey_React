@@ -8,9 +8,9 @@
 
 # Episode_02 Igniting our app
 
-# Parcel
+#Parcel
 
--dev build
+- dev build
 
 - Local server
   -HMR = hot module Replacement
