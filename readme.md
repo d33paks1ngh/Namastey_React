@@ -96,3 +96,5 @@
 - CORS plugin
 - shimmer UI
 - Conditional Rendering
+- add login and logout feacture and get more knowledge about useStata() hook
+- wheneven a local state variable is updated React re-render the component.

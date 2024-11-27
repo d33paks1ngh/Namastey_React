@@ -41,6 +41,7 @@
 }
 .filter-btn {
   margin: 10px;
+  display: flex;
 }
 .filter-btn > button {
   cursor: pointer;
@@ -57,4 +58,8 @@
   margin-top: 25px;
   background-color: rgb(231, 228, 228);
   border-radius: 15px;
+}
+.search > button{
+  margin: 5px;
+  cursor: pointer;
 }
