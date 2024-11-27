@@ -29,10 +29,10 @@
 
 # Episode_03 laying the foundation
 
--learning about jsx
--Type of component in React
--Functional Component
--jsx->converted into react.createElement->react Element->js object->render=HTML code on the browser.
+- learning about jsx
+- Type of component in React
+- Functional Component
+- jsx->converted into react.createElement->react Element->js object->render=HTML code on the browser.
 
 # Episode_04 Talk is cheap show me the code
 
