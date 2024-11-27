@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import restaurants from "./api";
 
 /**
  * applayout
@@ -33,13 +34,19 @@ const Header = () => {
 
 const RestaurantCard = (props) => {
   // console.log(props);
-  const {name,cousines}=props
+  // console.log(props?.resdata?.info?.id);
+  const data = props?.resdata?.info;
 
   return (
     <div className="res-card">
-      <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e0839ff574213e6f35b3899ebf1fc597" />
-      <h3>{name}</h3>
-      <h4>{cousines}</h4>
+      <img
+        src={
+          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
+          data.cloudinaryImageId
+        }
+      />
+      <h3>{data.name}</h3>
+      <h4>{data.locality}</h4>
     </div>
   );
 };
@@ -52,8 +59,10 @@ const Body = () => {
       </div>
 
       <div className="res-container">
-        <RestaurantCard name="Meghana Food" cousines="Murga Biryani Non Veg" />
-        <RestaurantCard name="KFC" cousines="Coffee Food Tea" />
+        {restaurants.map((value) => (
+          <RestaurantCard key={value.info.id} resdata={value} />
+        ))}
+        {/* <RestaurantCard resdata={restaurants[0]} /> */}
       </div>
     </div>
   );
