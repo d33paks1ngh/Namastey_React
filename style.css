@@ -40,3 +40,9 @@ width: 100%;
     flex-wrap: wrap;
     gap: 25px;
 }
+.filter-btn{
+  margin: 10px;
+}
+.filter-btn>button{
+  cursor: pointer;
+}

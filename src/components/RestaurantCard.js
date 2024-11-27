@@ -9,6 +9,7 @@ const RestaurantCard = (props) => {
       <img src={CDN_URL + data.cloudinaryImageId} />
       <h3>{data.name}</h3>
       <h4>{data.locality}</h4>
+      <h5>{data.avgRating}</h5>
     </div>
   );
 };

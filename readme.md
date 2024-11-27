@@ -67,7 +67,23 @@
   import {Component} from "path"
 
 # Hooks
-- Hooks are normal js utility function written by fb developers 
+
+- Hooks are normal js utility function written by fb developers
 - Two Important Hooks are
+
 1. usestate() - use to give us superpowerfull react variable
-2. useEffect() - 
+   whenever useState() variable is updated React restarts its render cycle;
+   The second variable of useState() hook is to trigger the React Reconcilation so that It can find the the diff between the old virtual Dom and New Virtual Dom using Diff algoritham and Create a updated Actual Dom and re-rander the component.
+
+- React is very good at Dom operation because of React Fiber which comes in React 16.
+
+- we need to named import the useState() from React .
+  syntax----
+  const [list,setlist]=useState([]);
+
+- useState() Hook always return a array; and its syntax shows how array elements are destructure on the fly ;
+
+- React Reconsiliation / React Fiber
+- Actual Dom and Virtual Dom
+- Diff algoritham
+- Why React is fast???
