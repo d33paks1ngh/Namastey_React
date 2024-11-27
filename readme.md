@@ -87,3 +87,12 @@
 - Actual Dom and Virtual Dom
 - Diff algoritham
 - Why React is fast???
+
+# Episode_06 Exploring The World...
+
+- Monolith architecture and Microservices architecture
+- useEffect() hook it take two arguments callback fun and []- dependency array;
+- fetch the real swiggy api data and make use of useEffect() hook to render the component
+- CORS plugin
+- shimmer UI
+- Conditional Rendering
