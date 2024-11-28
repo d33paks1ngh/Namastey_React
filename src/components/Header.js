@@ -19,7 +19,7 @@ const Header = () => {
               onClick={() => {
                 if (btn == "login") setbtn("log out");
                 else setbtn("login");
-                console.log("login  clicked");
+                // console.log("login  clicked");
               }}
             >
               {btn}

@@ -98,4 +98,13 @@
 - Conditional Rendering
 - add login and logout feacture and get more knowledge about useStata() hook
 - wheneven a local state variable is updated React re-render the component.
-- build search feature 
+- build search feature
+
+# Episode_07 Finding the path...
+
+- Routing In React
+- Install React-router-dom using npm commands
+- named import from react-router CreateBrowserRouter() from which take array of objects and set the browser configuration
+- named import RouterProvider from react-router which provides the routing configuration to out app
+- set the error page
+- Router also provide a useRouterError() Hook to give use more details about the error
