@@ -108,3 +108,11 @@
 - named import RouterProvider from react-router which provides the routing configuration to out app
 - set the error page
 - Router also provide a useRouterError() Hook to give use more details about the error
+
+- Create children Routes and keep the header intact.
+- learn about outlet .
+- Learn about dynamic Routing
+- create the menu page with live swiggy Api
+- named emport useParam() from react-router Learn how it works.
+
+
