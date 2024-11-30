@@ -148,3 +148,10 @@ The main difference between super() and super(props) is the this.props is undefi
 ## Q: (Research) Why can't we have the `callback function` of `useEffect async`?
 
 A: `useEffect` expects it's callback function to return nothing or return a function (cleanup function that is called when the component is unmounted). If we make the callback function as `async`, it will return a `promise` and the promise will affect the clean-up function from being called.
+
+
+
+#  Episode_09 Optimising out App...
+ 
+- Modularity provides readable code, easy testing, Reusability, and 
+- follow single responsibility Principal
