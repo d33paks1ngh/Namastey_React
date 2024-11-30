@@ -155,3 +155,6 @@ A: `useEffect` expects it's callback function to return nothing or return a func
  
 - Modularity provides readable code, easy testing, Reusability, and 
 - follow single responsibility Principal
+
+-Custom Hooks 
+- Create a Custom Hook for RestaurantMenu page.
