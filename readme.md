@@ -158,3 +158,16 @@ A: `useEffect` expects it's callback function to return nothing or return a func
 
 -Custom Hooks 
 - Create a Custom Hook for RestaurantMenu page.
+- create a custom Hook for Restaurant list page.
+- Create a Custom hook for online status
+# Make you application in small size know as
+- lazy loading
+- Dynamic loading
+- Code spitting
+- on Demand Loading
+- Chunking
+- Dynamic Bundling
+
+import the Grocery Component using Lazy Loading...
+
+- Lazy loading, Suspense Component and fallback ...

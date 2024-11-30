@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router";
 import { RES_LIST } from "../utils/Constants";
+import useOnlineStatus from "../utils/useOnlinestatus";
 
 const Body = () => {
   const [ListRestaurants, setListRestaurants] = useState([]);
@@ -30,6 +31,9 @@ const Body = () => {
     setsearchList(apidata);
     // console.log(apidata);
   };
+
+  if (!useOnlineStatus())
+    return <h1>Oops Please Check Your Internet Connection !!!</h1>;
 
   // conditional rendering
 
