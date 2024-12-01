@@ -151,7 +151,7 @@ A: `useEffect` expects it's callback function to return nothing or return a func
 
 
 
-#  Episode_09 Optimising out App...
+#  Episode_09 Optimising our App...
  
 - Modularity provides readable code, easy testing, Reusability, and 
 - follow single responsibility Principal
@@ -170,4 +170,22 @@ A: `useEffect` expects it's callback function to return nothing or return a func
 
 import the Grocery Component using Lazy Loading...
 
-- Lazy loading, Suspense Component and fallback ...
+- Lazy loading, 
+- Suspense Component 
+- fallback ...
+
+
+
+#  Episode_10 JO Dikhta hai wo Bikata hai...
+Ways to style your page. 
+- Normal CSS.
+- SCSS
+- SASS
+- Styled Component
+- Material UI
+- Ant Design
+- Bootstrap
+- Chakra UI
+- Tailwind CSS
+
+- configure Tailwind with  your projects

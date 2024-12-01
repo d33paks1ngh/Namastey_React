@@ -5,12 +5,12 @@ import useOnlineStatus from "../utils/useOnlinestatus";
 const Header = () => {
   const [btn, setbtn] = useState("login");
   return (
-    <div className="header">
+    <div className="flex items-center justify-between px-4 bg-orange-500 ">
       <div className="logo-container">
-        <img className="logo" src={LOGO_URL} />
+        <img className="h-16 w-16 rounded-full" src={LOGO_URL} />
       </div>
-      <div className="nav-items">
-        <ul className="list-items">
+      <div className="sd">
+        <ul className="flex items-center gap-6 font-bold">
           <li>{useOnlineStatus() ? "🟢" : "🔴"}</li>
           <li>
             <Link to="/Grocery">Grocery</Link>
@@ -27,7 +27,7 @@ const Header = () => {
           <li>Cart</li>
           <li>
             <button
-              className="btn"
+              className="px-2 border-2 border-black"
               onClick={() => {
                 if (btn == "login") setbtn("log out");
                 else setbtn("login");
