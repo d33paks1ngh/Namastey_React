@@ -18,21 +18,24 @@ const RestaurantMenu = () => {
   const { name, city, areaName, avgRating, cuisines, costForTwo, id } =
     resMenuinfo?.cards[2]?.card?.card?.info;
   return (
-    <div>
-      <h1>{name}</h1>
-      <h3>
+    <div className="text-center mt-8">
+      <h1 className="font-bold text-3xl text-pink-700">{name}</h1>
+      <h2 className="font-normal text-xl">
         {city} -{areaName}
-      </h3>
-      <h3>{cuisines.join(",")}</h3>
-      <p>
+      </h2>
+      <h3 className="font-normal text-xl">{cuisines.join(",")}</h3>
+      <p className="font-bold text-xl">
         Rating {avgRating}⭐ and {costForTwo}
       </p>
 
-      <h2>Menu</h2>
-      <ul>
+      <h2 className="m-4 font-serif text-2xl font-bold text-orange-500 ">
+        Menu
+      </h2>
+      <ul className="font-normal text-l">
         {menu.map((elem) => (
-          <li key={elem.card.info.id}>
-            {elem.card.info.name} - Rs{elem.card.info.defaultPrice}
+          <li className="mt-2" key={elem.card.info.id}>
+            <span className="justify-around">{elem.card.info.name}</span> -{" "}
+            <span className="font-bold text-sm">Rs{elem.card.info.defaultPrice}</span>
           </li>
         ))}
         <li>{menu[0].card.info.name}</li>
