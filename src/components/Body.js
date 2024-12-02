@@ -3,7 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router";
-import { RES_LIST } from "../utils/Constants";
+import { RES_LIST } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlinestatus";
 
 const Body = () => {
@@ -20,6 +20,7 @@ const Body = () => {
   const fetchData = async () => {
     const data = await fetch(RES_LIST);
     const json = await data.json();
+    // console.log(json.data?.cards[4])
     // console.log(
     //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     // );
@@ -42,7 +43,7 @@ const Body = () => {
   // }
 
   // we can club the code using ternery operator...
-  return ListRestaurants.length == 0 ? (
+  return ListRestaurants?.length <= 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
@@ -82,7 +83,7 @@ const Body = () => {
       </div>
 
       <div className="mt-8 flex flex-wrap items-center justify-evenly">
-        {searchList.map((value) => (
+        {searchList?.map((value) => (
           <Link
             key={value.info.id}
             className="resLink"

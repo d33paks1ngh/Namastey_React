@@ -197,5 +197,6 @@ Ways to style your page.
   Higher order Component is a function which takes a function and returns a function / takes a function and enhance it and return the function
   also called as enhancer.
 
+- Lifting the state Up
 - Filter item Categories
 - Introduction to accordian
