@@ -212,3 +212,10 @@ Ways to style your page.
 
 - React Tool kit chrome extension
   1 .Component and profiler
+
+- Props Drilling
+- React has one direction data flow from parent to children
+- Context API
+- Create globle data using create context - named import from React.
+- useContext() is a hook provided by react to use the item created using CreateContext();
+- useContext in class base components...
