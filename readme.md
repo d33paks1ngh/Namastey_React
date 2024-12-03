@@ -197,9 +197,18 @@ Ways to style your page.
   Higher order Component is a function which takes a function and returns a function / takes a function and enhance it and return the function
   also called as enhancer.
 
-- Lifting the state Up
 - Filter item Categories
 - Introduction to accordian
 - Create the menu page
 - Create header and body of accordian
--Props Drilling...
+- Lifting the state up
+
+1. Controlled Component and
+2. Uncontrolled Component
+
+- Creating auto collapsable Accordian
+- How parent controls the child component
+- child compopent can set data of the parent component also not directly but indirectly.
+
+- React Tool kit chrome extension
+  1 .Component and profiler
