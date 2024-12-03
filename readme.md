@@ -200,3 +200,6 @@ Ways to style your page.
 - Lifting the state Up
 - Filter item Categories
 - Introduction to accordian
+- Create the menu page
+- Create header and body of accordian
+-Props Drilling...
