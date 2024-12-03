@@ -9,3 +9,6 @@ export const LOGO_URL =
 
 export const RES_LIST =
   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6914766&lng=77.45818609999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+
+export const VEG_LOGO =
+  "https://i.pinimg.com/736x/75/5e/d7/755ed7f44d9febd7e5cc51183d18f5c3.jpg";
