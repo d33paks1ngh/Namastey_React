@@ -4,7 +4,7 @@ const CategoryList = ({ list }) => {
   // const { name, price, description, imageId, id } = list?.card?.info;
   return (
     <div className="font-light text-sm bg-slate-#FFFFFF w-6/12 m-auto">
-      {console.log(list[0].card)}
+      {/* {console.log(list[0].card)} */}
       {list.map((ls) => (
         <div
           className="flex justify-between border-b-2 my-2 p-4"
