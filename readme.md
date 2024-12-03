@@ -219,3 +219,6 @@ Ways to style your page.
 - Create globle data using create context - named import from React.
 - useContext() is a hook provided by react to use the item created using CreateContext();
 - useContext in class base components...
+
+
+# Episode_12 Lets Build Our Store... (REDUX)
