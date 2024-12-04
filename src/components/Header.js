@@ -2,8 +2,12 @@ import { useState } from "react";
 import { LOGO_URL } from "../utils/Constants";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlinestatus";
+import { useSelector } from "react-redux";
 const Header = () => {
   const [btn, setbtn] = useState("login");
+
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log(cartItems);
   return (
     <div className="flex items-center justify-between px-4 bg-orange-500 ">
       <div className="logo-container">
@@ -24,7 +28,7 @@ const Header = () => {
           <li>
             <Link to="/contact">Contact Us</Link>
           </li>
-          <li>Cart</li>
+          <li className="font-bold text-xl">cart({cartItems.length})</li>
           <li>
             <button
               className="px-2 border-2 border-black"

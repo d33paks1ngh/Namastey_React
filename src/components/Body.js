@@ -3,7 +3,8 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router";
-import { RES_LIST } from "../utils/constants";
+
+import { RES_LIST } from "../utils/Constants";
 import useOnlineStatus from "../utils/useOnlinestatus";
 
 const Body = () => {
