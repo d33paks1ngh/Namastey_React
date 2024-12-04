@@ -249,3 +249,17 @@ Ways to style your page.
 - Connect your slice to the Store.
 - Dispatch Action using useDispatch Hook.
 - Selector - Read the data of the Store using useSelector() hook import from react-redux
+
+  -Create add and remove items from the cart using dispatch and Reducer function ...
+
+# Few important points related to Redux...
+
+1.  Always select the small portion of the Store / Only select the slice which you gonna use.
+2.  Reducer and Reducers are two different things keep this in mind...
+3.  Features and Difference between Vanilla Redux and RTK.
+4.  we have to not mutate the state in vanilla redux but in RTK we have to mutate the state and the
+    imagine thing is that in back-end redux run the same vanilla redux logic with the help of immer
+5. RTK usage Immer in background...
+6. Introduction to Immer
+7. In vanilla we have to return the state but in RTK we do not need to return the same return 
+8. RTK says either you mutate the state or return the new full state.
