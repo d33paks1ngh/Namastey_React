@@ -8,7 +8,7 @@ const CategoryList = ({ list }) => {
   const handleAddItems = (ls) => {
     // dispatch an action
     dispatch(addItems(ls));
-    console.log("add button clicked");
+    // console.log("add button clicked");
   };
 
   return (
