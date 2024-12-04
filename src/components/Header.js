@@ -8,6 +8,7 @@ const Header = () => {
 
   const cartItems = useSelector((store) => store.cart.items);
   console.log(cartItems);
+
   return (
     <div className="flex items-center justify-between px-4 bg-orange-500 ">
       <div className="logo-container">
