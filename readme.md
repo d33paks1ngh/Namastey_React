@@ -259,7 +259,14 @@ Ways to style your page.
 3.  Features and Difference between Vanilla Redux and RTK.
 4.  we have to not mutate the state in vanilla redux but in RTK we have to mutate the state and the
     imagine thing is that in back-end redux run the same vanilla redux logic with the help of immer
-5. RTK usage Immer in background...
-6. Introduction to Immer
-7. In vanilla we have to return the state but in RTK we do not need to return the same return 
-8. RTK says either you mutate the state or return the new full state.
+5.  RTK usage Immer in background...
+6.  Introduction to Immer
+7.  In vanilla we have to return the state but in RTK we do not need to return the same return
+8.  RTK says either you mutate the state or return the new full state.
+
+# Install Redux dev tools for your browser.
+
+play with Redux dev tools
+Read about Redux Toolkit Query...
+
+# Episode_13 Time For the Test...
