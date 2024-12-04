@@ -220,9 +220,9 @@ Ways to style your page.
 - useContext() is a hook provided by react to use the item created using CreateContext();
 - useContext in class base components...
 
-
 # Episode_12 Lets Build Our Store... (REDUX and RTK)
-- Introduction to Redux  Redux is not mendetory all the application which has build with redux can also be build without Redux.
+
+- Introduction to Redux Redux is not mendetory all the application which has build with redux can also be build without Redux.
 - zustand is also a state management library which works similar to Redux.
 - Redux is a state management library of javaScript and it work fine with react
 - Redux and react are two different thing
@@ -230,20 +230,22 @@ Ways to style your page.
 - Redux store is logically divided into partition and each partition hold the data / information regarding different component and each partition is called as slice.
 
 - how redux works
-let us consider an example of adding an item in card from the menu page.
+  let us consider an example of adding an item in card from the menu page.
 
-- when we click on  the add button it depatches an action which call a function() (reducer function) and that function changes/updates the slice.
+- when we click on the add button it depatches an action which call a function() (reducer function) and that function changes/updates the slice.
 
 - After making update in the slice we can read the slice using the SELECTOR .
 - Selection helps us to read the inforamtion of tha Slice.
 - The process of modifying the Store/Slice and reading the updating the info on the card is called as Subscribing to the store.
 
 # Redux Toolkit
+
 - Part_04 Lets Build Our Store
 - Install @reduxjs/toolkit and react-redux
-- build our store
-- Connect ourstore to app
-- Slice (cardSlice)
-- Dispatch Action
-- Selector (read data)
-
+- build our store using configeStore() import from @redux/toolkit.
+- Connect ourstore to app using Provider import from react-redux.
+- create Slice (cardSlice) create slice using createSlice() function which takes
+  name of the slice and initialState and reducers.
+- Connect your slice to the Store.
+- Dispatch Action using useDispatch Hook.
+- Selector - Read the data of the Store using useSelector() hook import from react-redux
