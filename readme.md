@@ -270,3 +270,9 @@ play with Redux dev tools
 Read about Redux Toolkit Query...
 
 # Episode_13 Time For the Test...
+# Setting up testing...
+- install React testing library
+- install jest
+- Install babel dependencies which required to use jest with babel
+- Configure Babel
+- Configure parcel config file to disable default babel transpilation.
