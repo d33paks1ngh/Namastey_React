@@ -285,9 +285,20 @@ Read about Redux Toolkit Query...
 - Now configure the or initialize the JEST.
   using npx jest --init.
 
-- Install jsdom library
+- Install jsdom library.
 
   \_ \_ is know as dunder .
   **tests** is know as dunder test
 
   Create a function sum() and write a small test case for it
+
+  # Time for the test all tools are configured now time for unit testing....
+
+- Test the contact page .
+- Install @babel preset-react and configure it into babel folder and set runtime:"automatic" bcz jest is unable to understand jsx.
+  listen writing test cases is easy but knowing what running in the backgroud is tough.
+- Install @testing-library/jest-dom and import it into the testiong file bcz it helps to provide the access to the jestDom.
+
+- Write test cases for the contact page in various ways.
+
+- test and it are same - refer code for better understanding.
