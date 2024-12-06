@@ -270,9 +270,24 @@ play with Redux dev tools
 Read about Redux Toolkit Query...
 
 # Episode_13 Time For the Test...
+
 # Setting up testing...
+
 - install React testing library
 - install jest
 - Install babel dependencies which required to use jest with babel
 - Configure Babel
 - Configure parcel config file to disable default babel transpilation.
+- Now execute the JEST using command - npm run test.
+
+# Part_03
+
+- Now configure the or initialize the JEST.
+  using npx jest --init.
+
+- Install jsdom library
+
+  \_ \_ is know as dunder .
+  **tests** is know as dunder test
+
+  Create a function sum() and write a small test case for it

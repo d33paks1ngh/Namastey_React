@@ -3,9 +3,8 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router";
-
-import { RES_LIST } from "../utils/Constants";
 import useOnlineStatus from "../utils/useOnlinestatus";
+import { RES_LIST } from "../utils/Constants";
 
 const Body = () => {
   const [ListRestaurants, setListRestaurants] = useState([]);
@@ -31,7 +30,8 @@ const Body = () => {
         ?.restaurants;
     setListRestaurants(apidata);
     setsearchList(apidata);
-    // console.log(apidata);
+
+    console.log(apidata);
   };
 
   if (!useOnlineStatus())
