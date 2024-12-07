@@ -302,3 +302,15 @@ Read about Redux Toolkit Query...
 - Write test cases for the contact page in various ways.
 
 - test and it are same - refer code for better understanding.
+- decscribe is a keyword you can add to add all test cases .
+
+# Episode_13 Part_06
+
+-Test cases for header component.
+
+write test cases for more components.
+
+# Now making of Projects...
+
+project++;
+build++;

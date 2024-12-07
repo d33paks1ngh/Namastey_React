@@ -42,7 +42,7 @@ describe("Contace use page test cases", () => {
     render(<Contact />);
     const inputBox = screen.getAllByRole("textbox");
 
-    console.log(inputBox.length);
+    // console.log(inputBox.length);
     expect(inputBox.length).toBe(2);
 
     //Assertion
